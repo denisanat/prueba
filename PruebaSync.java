@@ -23,6 +23,7 @@ public class PruebaSync extends Thread {
     public static void main(String[] args) {
         new PruebaSync("primer hilo").start();
         new PruebaSync("segundo hilo").start();
+        System.out.println("Hola mundo");
     }
 }
 
